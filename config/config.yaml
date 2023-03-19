@@ -1,0 +1,4 @@
+env: test
+global_auth:
+  key: null
+  value: null

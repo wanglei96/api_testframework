@@ -1,0 +1,9 @@
+demo:
+  role_code:
+    - ET
+    - LET
+    - MET
+  ids:
+    - 测试组员
+    - 测试组长
+    - 测试经理

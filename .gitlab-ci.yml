@@ -1,0 +1,7 @@
+include:
+  - project: "devops/gitlab-ci"
+    ref: main
+    file: "templates/test-pipeline.yml"
+variables:
+  PROJECT_ID: "auto-auto-api"
+  

@@ -1,0 +1,53 @@
+base_config:
+  need_log: 1
+base_info:
+#  url: https://act.test.metadl.com
+  url: http://127.0.0.1:8090
+  socket_url: wss://auto.test.metadl.com/socket
+  product: 7
+
+user_info:
+  email: auto_test@fuzhi.ai
+  pwd: auto_test
+
+db_info:
+  mysql:
+    host: 192.168.50.26
+    port: 3306
+    user: autotables
+    password: Autotables@sdFz@2020
+    database: autotables
+  hive:
+    host: 192.168.50.37
+    port: 10000
+    user: root
+    password:
+    database: default
+  HDFS:
+    hosts: 192:168:50:21,9000
+    user: root
+  hbase:
+    host: 192.168.50.36
+    port: 8765
+    user:
+    password:
+    database:
+  clickhouse:
+    host : 172.16.0.15
+    port : 31000/30123
+    user : default
+    pw : C1ickh0use
+    database : default
+
+modal_task_data:
+  csv_classification: 0, 0
+  csv_multiclass: 0, 1
+  csv_regression: 0, 2
+  csv_series: 0, 3
+  image_classification: 2, 0
+  image_detection: 2, 1
+  image_semantic: 2, 3
+  txt_classification: 4, 0
+  txt_sequence: 4, 2
+  audio_classification: 3, 0
+  video_classification: 1, 0
